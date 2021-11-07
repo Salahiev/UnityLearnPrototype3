@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2711120911790756390}
   - component: {fileID: 2711120911790846009}
   - component: {fileID: 2711120911790846008}
+  - component: {fileID: 1580474075}
   m_Layer: 0
   m_Name: Obstracle1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,8 +45,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.38429642, y: 2.1535509, z: 3.2606034}
-  m_Center: {x: -0.035535812, y: 0.86847293, z: 0.042465687}
+  m_Size: {x: 0.38429642, y: 1.8874885, z: 3.2606034}
+  m_Center: {x: -0.035535812, y: 0.7354421, z: 0.042465687}
 --- !u!54 &2711120911790846008
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -62,6 +63,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1580474075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711120911790996998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10686fce0170aff40a5fbb0cce7850c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMove: 20
 --- !u!1 &2711120911790997000
 GameObject:
   m_ObjectHideFlags: 0
